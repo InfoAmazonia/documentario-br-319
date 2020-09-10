@@ -1,0 +1,26 @@
+[
+  {
+    "id": "general.author",
+    "defaultMessage": "Reportagem e roteiro: Gustavo Faleiros / Fotografia e montagem: Márcio Isensee e Sá"
+  },
+  {
+    "id": "general.publishDate",
+    "defaultMessage": "5 de setembro de 2018"
+  },
+  {
+    "id": "general.tagline",
+    "defaultMessage": "Uma vila localizada na estrada mais erma do Brasil se torna a nova fronteira para madeireiros de Rondônia. A cada dia, novos moradores chegam abrindo negócios, em busca de oportunidades na Amazônia"
+  },
+  {
+    "id": "general.startOver",
+    "defaultMessage": "Começar do início"
+  },
+  {
+    "id": "general.continueReading",
+    "defaultMessage": "Continuar assistindo"
+  },
+  {
+    "id": "general.readStory",
+    "defaultMessage": "Assistir o vídeo"
+  }
+]

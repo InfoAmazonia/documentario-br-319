@@ -1,4 +1,5 @@
 {
+  "homepage": "https://realidade.infoamazonia.org/",
   "name": "infoamazonia",
   "version": "0.0.0",
   "description": "",
@@ -6,23 +7,22 @@
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --host 0.0.0.0",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "setup": "rm -rf public/*",
+    "setup": "rm -rf docs/*",
     "build": "npm run setup && webpack --config webpack.config.js -d --env production",
     "watch": "npm run setup && webpack --config webpack.config.js --watch",
-    "deploy": "npm run build && cp public/index.html public/404.html && gh-pages -d public",
+    "deploy": "npm run build && cp docs/index.html docs/404.html && gh-pages -d public",
     "manage:translations": "node ./translationRunner.js",
     "dev": "./node_modules/.bin/webpack-dev-server --content-base"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/studiocuboweb/infoamazonia-por-dentro-da-floresta.git"
+    "url": "https://github.com/InfoAmazonia/documentario-br-319.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/studiocuboweb/infoamazonia-por-dentro-da-floresta/issues"
+    "url": "https://github.com/InfoAmazonia/documentario-br-319/issues"
   },
-  "homepage": "https://github.com/studiocuboweb/infoamazonia-por-dentro-da-floresta#readme",
   "dependencies": {
     "axios": "^0.17.1",
     "calvinclaus-rc-slider": "7.3.0",
